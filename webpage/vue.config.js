@@ -7,7 +7,7 @@ const API_URL = {
 // check environment mode
 const environment = process.env.NODE_ENV === 'production' ? 'production' : 'development';
 module.exports = {
-    publicPath: '/iotgame/',
+    publicPath: '/iotgame1/',
     devServer: {
         port: 8081,
         https: true,
