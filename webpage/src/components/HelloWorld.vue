@@ -6,7 +6,7 @@
             device for 10 seconds to win the game after starting the countdown ;)</p>
         <form id="login">
             <p>
-                <input class="start" id="username" v-model="username" placeholder="Create Your username" :disabled='clicked'>
+                <input class="start" id="username" v-model="username" placeholder="Create Your username" :disabled = false>
             </p>
             <div id="StartButton">
                 <button class="start" @click="startDataTransfer" :disabled='clicked'>Go for noThing</button>
