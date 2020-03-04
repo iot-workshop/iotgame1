@@ -164,7 +164,7 @@
             showTime() {
                 if(this.xValue+this.yValue+this.zValue>0)
                 {
-                    username = "game over";
+                    this.username = "game over";
                     window.removeEventListener('devicemotion', this.motion, true);
                     this.over = true;
                     this.releaseDevice();
