@@ -2,14 +2,14 @@
     <div class="hello">
         <h1>{{ msg }}</h1>
         <p>Your current session is identified with <b>{{sessionID}}</b>.</p>
-        <p>So first, create your username.<br> Second, press the button "Go for IT". <br> After pressing the button, explore your smartphones accelerometer data - but be ready to shake your
+        <p>So first, create your username.<br> Second, press the button "Go for noThing". <br> After pressing the button, explore your smartphones accelerometer data - but be ready to shake your
             device for 10 seconds to win the game after starting the countdown ;)</p>
         <form id="login">
             <p>
                 <input class="start" id="username" v-model="username" placeholder="Create Your username" :disabled='clicked'>
             </p>
             <div id="StartButton">
-                <button class="start" @click="startDataTransfer" :disabled='clicked'>Go for IT</button>
+                <button class="start" @click="startDataTransfer" :disabled='clicked'>Go for noThing</button>
             </div>
         </form>
         <div class='output-info'>
@@ -162,12 +162,15 @@
                 this.client.publish(topic, message);
             },
             showTime() {
-                setTimeout(() => {
+                if(this.xValue+this.yValue+this.zValue>0)
+                {
+
                     window.removeEventListener('devicemotion', this.motion, true);
                     this.over = true;
                     this.releaseDevice();
                     this.client.end();
-                }, 60 * 1000);
+                                      }
+
             },
             generateSAS(resourceUri, signingKey, policyName, expiresInMins) {
                 console.log("Generating")
