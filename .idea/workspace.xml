@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e53022b5-68a5-4d5d-96a9-30dc9f26903b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpage/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/webpage/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpage/src/components/HelloWorld.vue" beforeDir="false" afterPath="$PROJECT_DIR$/webpage/src/components/HelloWorld.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -448,7 +447,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583319557216</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="neuer modus">
+      <created>1583335659290</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1583335659290</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -472,7 +478,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/webpage" />
     </ignored-roots>
-    <MESSAGE value="webpage: real data message availabe" />
     <MESSAGE value="webpage: requirements for form" />
     <MESSAGE value="delete unnecessary files" />
     <MESSAGE value="connection for IoT Hub and refactoring" />
@@ -497,7 +502,8 @@
     <MESSAGE value="test orientation data with deviceOrientationEvents for iPhone" />
     <MESSAGE value="changes removed for orientation" />
     <MESSAGE value="Test Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test Commit" />
+    <MESSAGE value="neuer modus" />
+    <option name="LAST_COMMIT_MESSAGE" value="neuer modus" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="72" key="#Custom_Plugin_Repositories" timestamp="1581594080618">
@@ -512,14 +518,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="72" key="#Plugins/0.0.1536.824@0.0.1536.824" timestamp="1581605199380" />
-    <state x="968" y="21" width="744" height="827" key="CommitChangelistDialog2" timestamp="1583319556995">
+    <state x="968" y="21" width="744" height="827" key="CommitChangelistDialog2" timestamp="1583335659143">
       <screen x="0" y="0" width="3840" height="2113" />
     </state>
     <state x="387" y="8" key="CommitChangelistDialog2/0.0.1536.824/1920.-201.2560.1400@0.0.1536.824" timestamp="1582036217435" />
     <state x="387" y="8" key="CommitChangelistDialog2/0.0.1536.824/1920.0.2048.1112@0.0.1536.824" timestamp="1582645730875" />
     <state x="387" y="8" key="CommitChangelistDialog2/0.0.1536.824/1920.0.2560.1400@0.0.1536.824" timestamp="1582711304954" />
     <state x="387" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1583073393488" />
-    <state x="968" y="21" width="744" height="827" key="CommitChangelistDialog2/0.0.3840.2113@0.0.3840.2113" timestamp="1583319556995" />
+    <state x="968" y="21" width="744" height="827" key="CommitChangelistDialog2/0.0.3840.2113@0.0.3840.2113" timestamp="1583335659143" />
     <state x="93" y="93" width="1350" height="638" maximized="true" key="DiffContextDialog" timestamp="1581339295242">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -545,14 +551,14 @@
       <screen x="0" y="0" width="3840" height="2113" />
     </state>
     <state x="1416" y="693" width="1007" height="732" key="SettingsEditor/0.0.3840.2113@0.0.3840.2113" timestamp="1583335059827" />
-    <state x="903" y="374" width="806" height="530" key="Vcs.Push.Dialog.v2" timestamp="1583319571221">
+    <state x="903" y="374" width="806" height="530" key="Vcs.Push.Dialog.v2" timestamp="1583335660337">
       <screen x="0" y="0" width="3840" height="2113" />
     </state>
     <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.-201.2560.1400@0.0.1536.824" timestamp="1582036229452" />
     <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.2048.1112@0.0.1536.824" timestamp="1582645732971" />
     <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.2560.1400@0.0.1536.824" timestamp="1582711308501" />
     <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1583073397992" />
-    <state x="903" y="374" width="806" height="530" key="Vcs.Push.Dialog.v2/0.0.3840.2113@0.0.3840.2113" timestamp="1583319571221" />
+    <state x="903" y="374" width="806" height="530" key="Vcs.Push.Dialog.v2/0.0.3840.2113@0.0.3840.2113" timestamp="1583335660337" />
     <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583098232828">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
